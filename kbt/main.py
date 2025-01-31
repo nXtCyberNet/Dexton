@@ -62,7 +62,7 @@ def start_pod():
         pod_manifest = {
             'apiVersion': 'v1',
             'kind': 'Pod',
-            'metadata': {'name': f"{username}-{id_generator()}"},
+            'metadata': {'name': f"{username}}"},
             'spec': {
                 'containers': [
                     {
